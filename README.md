@@ -69,7 +69,6 @@ npm run build
 - `src/commands/`: Command implementations and user feedback logic.
 - `src/services/`: System-level operations (Pings, DNS settings, interface detection).
 - `src/utils/`: Shared utilities (Logging, OS detection).
-- `dist/`: Production-ready JavaScript (auto-generated).
 - `.github/workflows/`: CI/CD pipeline configuration.
 
 ## 📦 Tech Stack
