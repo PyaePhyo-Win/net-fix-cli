@@ -23,8 +23,12 @@ export async function runCheck(): Promise<void> {
       spinner.warn("DNS issue detected.");
       logger.info("Try running 'netfix fix' to resolve this.");
     }
-  } catch (error: any) {
+  } catch (error: unknown) {
     spinner.fail("An error occurred during check.");
-    logger.error(error.message);
+    if (error instanceof Error) {
+      logger.error(error.message);
+    } else {
+      logger.error("An unknown error occurred.");
+    }
   }
 }

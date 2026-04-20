@@ -35,9 +35,13 @@ export async function runFix(): Promise<void> {
       spinner.fail("Automated fix failed.");
       logger.warn("You might need to manually configure your DNS settings.");
     }
-  } catch (error: any) {
+  } catch (error: unknown) {
     spinner.fail("An error occurred while trying to fix DNS.");
-    logger.error(error.message);
+    if (error instanceof Error) {
+      logger.error(error.message);
+    } else {
+      logger.error("An unknown error occurred.");
+    }
     logger.dim("Note: Some fix operations require administrator/sudo privileges.");
   }
 }
