@@ -4,14 +4,14 @@ A professional, cross-platform CLI tool built with **TypeScript** and Node.js to
 
 ## ✨ Features
 
-- **🛡️ Type Safe**: Entirely rewritten in TypeScript for better maintainability and reliability.
-- **🔍 Network Diagnosis**: Checks for both physical internet connectivity and DNS resolution.
-- **🛠️ Automated Fix**: Automatically configures high-performance DNS (Google DNS/Cloudflare) and flushes system DNS caches.
-- **📡 Dynamic Interface Detection**: Automatically detects active network services (like Wi-Fi or Ethernet) on macOS for robust configuration.
-- **🔄 Auto-Update**: Notifies users when a new version is available on npm.
-- **🎨 Modern UI**: Uses industry-standard spinners (Ora) and color-coded logging (Chalk) for a polished UX.
-- **🏗️ Clean Architecture**: Built with separation of concerns using Commander.js.
-- **🧪 Tested & Linted**: High code quality maintained with Jest, ESLint, and GitHub Actions (CI/CD).
+- **Type Safe**: Entirely rewritten in TypeScript for better maintainability and reliability.
+- **Network Diagnosis**: Checks for both physical internet connectivity and DNS resolution.
+- **Automated Fix**: Automatically configures high-performance DNS (Google DNS/Cloudflare) and flushes system DNS caches.
+- **Dynamic Interface Detection**: Automatically detects active network services (like Wi-Fi or Ethernet) on macOS for robust configuration.
+- **Auto-Update**: Notifies users when a new version is available on npm.
+- **Modern UI**: Uses industry-standard spinners (Ora) and color-coded logging (Chalk) for a polished UX.
+- **Clean Architecture**: Built with separation of concerns using Commander.js.
+- **Tested & Linted**: High code quality maintained with Jest, ESLint, and GitHub Actions (CI/CD).
 
 ## 📋 Prerequisites
 
